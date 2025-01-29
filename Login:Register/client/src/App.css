@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: #29aa7f;
+  padding: 20px;
+  position: relative; /* Add relative positioning for absolute elements */
+}
+
+/* form */
+.form-container {
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.title, .slogan {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+}
+
+.auth-image {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.alert {
+  margin-bottom: 1.5rem;
+}
+
+/* Profile-card */
+.profile-card {
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.avatar {
+  margin-bottom: 1rem;
+}
+
+.username {
+  text-transform: capitalize;
+}
+
+.profile-btn {
+  margin-top: 1rem;
+  width: 80%;
+  font-size: 12px;
+}
+
+.employees-card {
+  width: 100%;
+  max-width: 800px;
+  right: 260px;
+  bottom: 220px;
+  margin: 10rem; /* Adjust margin-top to move card higher */
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.employees-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.employee-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.employee-list-item:last-child {
+  border-bottom: none;
+}
+
+.employee-avatar {
+  margin-right: 10px;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-name {
+  font-weight: bold;
+}
+
+.employee-details {
+  color: rgba(0, 0, 0, 0.45);
+}
