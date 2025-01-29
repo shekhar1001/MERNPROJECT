@@ -9,8 +9,6 @@ React (Frontend)
 Vite (Bundler with Fast Refresh)
 ESLint (Code linting)
 Setup Instructions:
-Clone the repository:
-git clone https://github.com/your-repo/mern-login-register.git
 cd mern-login-register
 Install dependencies:
 cd frontend
@@ -28,8 +26,6 @@ React (Frontend)
 Node.js (Backend for sending emails and authentication)
 MongoDB Atlas (Database)
 Setup Instructions:
-Clone the repository:
-git clone https://github.com/your-repo/mern-login-app-with-reset-email.git
 cd mern-login-app-with-reset-email
 Configure environment variables:
 
